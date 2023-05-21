@@ -27,6 +27,6 @@ public class UserAuthenticationToken {
     public UserAuthenticationToken(User user) {
         this.user = user;
         this.authToken = UUID.randomUUID().toString();
-        generatedDateTime = LocalDateTime.now();
+        this.generatedDateTime = LocalDateTime.now();
     }
 }
