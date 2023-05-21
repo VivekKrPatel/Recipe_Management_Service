@@ -1,5 +1,5 @@
-# Doctor App
-This is a API project for `Patient`s to book appointment with `Doctor` for check up. Here I've used athentication for `Patient`.
+# Recipe Management Service API
+This is a API project for `User` to show recipes with `other users` for cooking. Here I've used athentication for `User`.
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot "Spring Boot") ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white "Java") ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white "Postman") ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white "Google Chrome")
 
@@ -12,7 +12,7 @@ This is a API project for `Patient`s to book appointment with `Doctor` for check
 ---
 
 ### Data flow
-1. Models
+1. Model
 2. Dtos
 3. Controllers
 4. Services
@@ -25,5 +25,7 @@ This is a API project for `Patient`s to book appointment with `Doctor` for check
 - `ArrayList<>`
 ---
 ## Summary
-This API is a `Spring Boot` project that is about Patients making appointments with Doctors. In this project request is sent from the client on HTTP in JSON body or from path variable and stored in object then response is sent back from the server by JSON format to the client.
+This API is a `Spring Boot` project that is about users making recipes. In this project request is sent from the client on HTTP in JSON body or from path variable and stored in object then response is sent back from the server by JSON format to the client. Kindly refer application.properties to build connection with mysql database.
+
+
 
